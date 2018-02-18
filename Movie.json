@@ -1,0 +1,7 @@
+{
+	"Movie" : 
+			{
+				"_id" : "Movie Id",
+				"dataFromRottenTomatoesAPI" : "All the data from the rotten tomatoes api is stored here"
+			}
+}

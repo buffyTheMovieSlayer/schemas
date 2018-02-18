@@ -1,0 +1,35 @@
+{
+	"Recommendation" : 
+			{
+				"_id" : "Recommendation Id",
+				"recommenderId" : "user id who made this recommendation",
+				"movieId" : "movieId of the movie / tv that is recommended",
+				"communityId" : "community Id in which the recommnedation was made",
+				"rating" : "rating given by the user",
+				"genre" : "genre of the movie / tv recoomended by the recommneder" ,
+				"review" : "Review by the user",
+				"comments" : 
+						[
+							"comment" : 
+									{
+										"commentId" : "Id of the comment",
+										"commenterId" : "user Id of the user who made this comment",
+										"commentText" : "what is the comment",
+										"dateAdded" : "timestamp of the comment",
+										"dateUpdted" : "timestamp of the last time the comment was updated"
+									}
+						],
+				"fanTheories" :
+						[
+							"fanTheory" :
+									{
+										"theoryId" : "Id of the fan theory",
+										"theoriestId" : "user Id of the user who made this fanTheory",
+										"fanTheoryText" : "what is the fan theory",
+										"rating" : "fanTheory rating",
+										"dateAdded" : "timestamp of the fanTheory",
+										"dateUpdted" : "timestamp of the last time the comment was fanTheory"
+									}
+						]				
+			}
+}

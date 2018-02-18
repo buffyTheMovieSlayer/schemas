@@ -1,0 +1,24 @@
+{
+	"Community" : 
+			{
+				"_id" : "community id",
+				"name" : "community name ",
+				"dateCreated" : "timestamp from when community was created",
+				"members":
+						[
+							"member" :
+									{
+										"memberId" : "user Id of the member of the community",
+										"dateAdded" : "date on which this member joined this community"
+									}
+						],
+				"recommendations":
+						[
+							"recommendation" : 
+										{
+											"recommendationId" : "recommendation Id of the recommendations in the community",
+											"dateAdded" : "date on which this recommendation was made in this community"
+										}
+						]
+			}
+}
